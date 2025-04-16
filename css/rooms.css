@@ -1,0 +1,265 @@
+
+body {
+  color: #626262;
+  font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+
+input, textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cr-red {
+  color: #9a2018;
+}
+
+#main-nav label img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all .5s ease;
+  margin-bottom: 20px;
+}
+
+#main-nav input, #burger-con {
+  display: none;
+}
+#main-nav input:checked ~ #burger-con {
+  display: block;
+}
+
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #626262;
+}
+
+#main-nav ul li {
+  border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+  border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+  margin-bottom: 40px;
+}
+
+#logo {
+  margin-bottom: 20px;
+  max-width: 382px;
+}
+
+#hero {
+  background: url(../images/hero-main1.jpg) no-repeat;
+  height: 200px;
+}
+
+.book-now {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 16px;
+  transition: all 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+  height: 67px;
+}
+
+#hero-heading-box {
+  align-self: end;
+}
+
+.hero-img-h2 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.hero-img-h2 span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  /* margin-top: 20px; */
+  border-top: solid 3px #CF6666;
+  padding-top: 20px;
+}
+
+#hero-summary p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+#room-hero-section {
+  background-image: url(../images/chateaus.jpg);
+  height: 200px;
+}
+
+#room-hero-section2 {
+  background-image: url(../images/villas.jpg);
+  height: 200px;
+}
+
+#room-hero-section3 {
+  background-image: url(../images/masters.jpg);
+  
+  height: 200px;
+}
+
+#room-hero-section4 {
+  background-image: url(../images/exotics.jpg);
+  height: 200px;
+}
+
+#room-hero-section5 {
+  background-image: url(../images/chlaets.jpg);
+  height: 200px;
+}
+
+#room-hero-section6 {
+  background-image: url(../images/junior.jpg);
+  height: 200px;
+}
+
+.rooms-hero-img-h2 {
+  background: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+#room-hero-heading-box {
+  align-self: end;
+}
+
+
+#rooms-summary p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+.more-info {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 14px;
+  transition: all 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+  height: 40px;
+}
+
+.more-info:hover {
+  background-color: rgb(234, 0, 0);
+}
+
+
+
+#faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#faq-con h2 span {
+  color: #9a2018;
+  font-size: 16px;
+}
+
+.faq-items {
+  margin-bottom: 16px;
+}
+
+.faq-items h3 {
+  background: #e8e7e7;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.faq-items ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.faq-items li {
+  padding: 8px 0;
+  border-bottom: 1px solid #9a2018;
+}
+
+.faq-items a {
+  color: inherit;
+  font-size: 13px;
+}
+
+#faq-text-con {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer-hero {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#footer-privacy .line-separator {
+  margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+  font-size: 23px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}
